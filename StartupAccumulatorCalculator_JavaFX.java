@@ -30,7 +30,7 @@ public class StartupAccumulatorCalculator_JavaFX extends Application {
     @Override // Override the start method in the Application class
     public void start(Stage primaryStage) {
         // Create a scene by calling the getPane() method and place it in the stage
-        Scene scene = new Scene(getPane(), 200, 250);
+        Scene scene = new Scene(getPane(), 245, 260);
         primaryStage.setTitle("Fun Calculator"); // Set the stage title
         primaryStage.setScene(scene); // Place the scene in the stage
         primaryStage.show(); // Display the stage
